@@ -7,12 +7,8 @@ Pod::Spec.new do |spec|
     spec.license                  = { :type => 'MIT', :text => 'License text'}
     spec.summary                  = 'Some description for the Shared Module'
     spec.libraries                = 'c++'
+    spec.platform                 = :ios, '15.0'
     spec.ios.deployment_target    = '15.0'
     spec.vendored_frameworks      = 'shared.xcframework'
     spec.dependency 'XenditFingerprintSDK', '1.0.1'
-
-
-
-
-
 end
