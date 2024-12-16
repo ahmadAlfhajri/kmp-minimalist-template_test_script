@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Shared",
-            path: "https://github.com/ahmadAlfhajri/kmp-minimalist-template_test_script/releases/download/1.0.0/XenditFingerprintSDK-1.0.0.zip",
+            url: "https://github.com/ahmadAlfhajri/kmp-minimalist-template_test_script/releases/download/1.0.0/XenditFingerprintSDK-1.0.0.zip",
             checksum:"35ec66e6e0d792a5affa884f117842ac6ccfc9bf9908a07449eac7152995d23a"
         ),
         .binaryTarget(
