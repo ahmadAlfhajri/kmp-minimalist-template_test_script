@@ -8,6 +8,7 @@ Pod::Spec.new do |spec|
     spec.summary                  = 'Some description for the Shared Module'
     spec.libraries                = 'c++'
     spec.ios.deployment_target    = '15.0'
+    spec.vendored_frameworks      = "shared.xcframework"
     spec.dependency 'XenditFingerprintSDK', '1.0.1'
 
 
